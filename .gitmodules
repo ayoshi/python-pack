@@ -1,3 +1,0 @@
-[submodule "lib/emacs-for-python"]
-	path = lib/emacs-for-python
-	url = https://github.com/gabrielelanaro/emacs-for-python

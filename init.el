@@ -1,9 +1,9 @@
-(live-add-pack-lib "emacs-for-python")
+(install-packs '(elpy))
 
-;; Fix for some incompatibility shit
-(defun yas/initialize nil)
+(elpy-enable)
+(elpy-use-ipython)
 
-(require 'epy-init)
+;;(elpy-clean-modeline)
 
 ;; Load bindings config
 (live-load-config-file "bindings.el")
